@@ -1,0 +1,4 @@
+reports/**/*.html filter=lfs diff=lfs merge=lfs -text
+reports/**/*.png filter=lfs diff=lfs merge=lfs -text
+reports/**/*.csv filter=lfs diff=lfs merge=lfs -text
+reports/**/*.json filter=lfs diff=lfs merge=lfs -text

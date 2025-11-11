@@ -1,0 +1,97 @@
+# ===============================================
+# 🧠 PatrolIQ - Smart Safety Analytics Platform
+# Optimized .gitignore for Data Science + Streamlit
+# ===============================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pkl
+*.joblib
+*.bak
+*.tmp
+*.log
+*.sqlite3
+*.db
+
+# ---- Large Datasets ----
+data/raw/
+data/interim/
+data/external/
+*.csv
+*.zip
+*.tar.gz
+*.h5
+*.parquet
+
+# Keep processed datasets (for demo/analysis)
+!data/processed/
+!data/processed/*.csv
+!data/processed/*.json
+
+# ---- Virtual Environments ----
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# ---- IDE / Notebooks ----
+.vscode/
+.history/
+.ipynb_checkpoints/
+*.ipynb_convert.py
+
+# ---- Streamlit ----
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/static/uploads/
+
+# ---- Reports / Outputs ----
+!reports/
+!reports/figures/
+!reports/figures/*.{png,html}
+!reports/summaries/
+!reports/summaries/*.{csv,json}
+reports/logs/
+logs/
+*.log
+
+# ---- MLflow ----
+mlruns/
+mlartifacts/
+*.mlmodel
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- OS / IDE files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+*.swo
+
+# ---- Git / Temporary ----
+*.orig
+*.rej
+
+# ---- Secrets / Keys ----
+*.key
+*.pem
+*.crt
+*.env
+.env.*
+config.yaml
+config.json
+credentials.json
+
+# ---- Cache ----
+.cache/
+*.tmp
+*.bak
