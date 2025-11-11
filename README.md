@@ -3,6 +3,7 @@
 ### 🌐 Domain: Public Safety & Urban Crime Analytics
 **🛠️ Tech Stack:** Python · Streamlit · Machine Learning · Plotly · Folium · MLflow · UMAP · PCA · DBSCAN
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chicago-crime-analytics-patroliq-bp57cn2n9t7eoyvcmvqmx6.streamlit.app/)
 ---
 
 ## 🎯 Project Overview
